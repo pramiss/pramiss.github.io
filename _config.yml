@@ -11,9 +11,6 @@ lang: ko
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
-# Date format settings -- 내가 추가한 설정
-date_format: "%Y년 %m월 %d일"
-last_modified_at: "%Y년 %m월 %d일"
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
