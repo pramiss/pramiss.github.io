@@ -2,7 +2,6 @@
 title: 아바타로 알아보는 구조주의
 description: 구조주의에 관해 영화 아바타(Avatar)를 통해 간단하게 알아봅니다.
 date: 2024-11-18 12:00:00 +0900
-last_modified_at: 2024-11-19 12:00:00 +0900
 categories: [__Bildung, Philosophy]
 tags: [] # TAG names should always be lowercased
 ---
