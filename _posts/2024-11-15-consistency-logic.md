@@ -14,7 +14,7 @@ tags: [physical_track, logic_diagram] # TAG names should always be lowercased
 
 
 
-### 1. Record - 기존 로직
+### 기존로직: Record
 
 ```mermaid
 flowchart LR
@@ -27,7 +27,7 @@ flowchart LR
 
 
 
-### 2. Record - 변경 로직
+### 변경로직: Record
 
 ```mermaid
 flowchart TB
@@ -59,7 +59,7 @@ erDiagram
 
 
 
-### 1. 운동 기록 시 마지막 운동 날짜(`last_workout_date`) 업데이트
+### 1단계. 운동 기록 시 마지막 운동 날짜(`last_workout_date`) 업데이트
 
 ```mermaid
 flowchart LR
@@ -74,7 +74,7 @@ flowchart LR
 
 
 
-### 2. 매일 자정 `streak_count` 업데이트
+### 2단계. 매일 자정 `streak_count` 업데이트
 
 ```mermaid
 flowchart LR
@@ -88,7 +88,7 @@ flowchart LR
 
 
 
-### 3. Consistency Ranking API 호출
+### 3단계. Consistency Ranking API 호출
 
 ```mermaid
 flowchart LR
