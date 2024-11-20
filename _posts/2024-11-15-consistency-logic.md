@@ -49,9 +49,9 @@ flowchart TB
 ```mermaid
 erDiagram
     CONSISTENCY {
-        int user_id PK,FK
-        int streak_count
-        LocalDate last_workout_date
+        int user_id PK,FK "유저번호"
+        int streak_count "연속 운동 일수"
+        Date last_workout_date "마지막 운동 날짜"
     }
 ```
 
@@ -105,6 +105,16 @@ flowchart LR
 <small>Ranking 레이어에서 직접 `CONSISTENCY` 테이블에서 데이터를 조회하지 않고  Consistency 레이어를 이용합니다.</small>
 <small>마찬가지로 Consistency 레이어에서는 데이터만 조회해서 전달할 뿐, 실제 랭킹 책정은 Ranking 레이어를 이용합니다.</small>
 
-> 단일 책임 원칙((Single Responsibility Principle) 생각하기
-{: .prompt-info}
+> 단일 책임 원칙(Single Responsibility Principle) 생각하기
+{: .prompt-tip}
 
+<br>
+
+*PlusAlpha*. 랭킹 조회를 위한 인덱스 생성
+
+```sql
+CREATE INDEX idx_streak_count ON consistency (streak_count DESC);
+```
+
+> 동일한 패턴으로 빈번하게 조회될 API에 대해서 인덱스를 생성해주었습니다.
+{: .prompt-info}
