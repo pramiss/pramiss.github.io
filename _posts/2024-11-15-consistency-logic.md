@@ -1,9 +1,9 @@
 ---
-title: Consistency Logic 추가
+title: Consistency Ranking API 설계
 description: Consistency 랭킹을 산정해야 합니다. 운동 랭킹 산정과 달리 계산 과정이 많아 API 요청마다 해결하기에는 비효율적입니다. 따라서 새로운 Consistency 테이블과 레이어를 만들고 추가하는 과정을 기록했습니다.
 date: 2024-11-15 09:21:00 +0900
-categories: [PhysicalTrack, API Logics]
-tags: [physical_track, logic_diagram] # TAG names should always be lowercased
+categories: [Project, PhysicalTrack]
+tags: [physical_track_api] # TAG names should always be lowercased
 ---
 
 ## &#8226; Consistency Logic 추가하기
@@ -20,7 +20,7 @@ tags: [physical_track, logic_diagram] # TAG names should always be lowercased
 flowchart LR
     A(Front) --> |request Record API|B[Record 서비스]
     B --> |Record 저장|C[(RECORDS)]
-  
+
 ```
 
 <br>
