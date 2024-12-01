@@ -233,7 +233,5 @@ jekyll-archives:
     category: /categories/:name/
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-last-modified-at
   - jemoji
