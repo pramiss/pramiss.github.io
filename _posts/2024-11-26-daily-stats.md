@@ -8,7 +8,7 @@ tags: [physical_track_api] # TAG names should always be lowercased
 
 <br>
 
-## <span style="background-color:#BBE1FA; padding: 1px 10px 1px 1px;">1. Daily Stats Web UI 예시</span>
+## 1. Daily Stats Web UI 예시
 
 ---
 
@@ -24,7 +24,7 @@ _해당 날짜에 운동을 하지 않은 경우 UI 디자인입니다._
 
 
 
-## <span style="background-color:#BBE1FA; padding: 1px 10px 1px 1px;">2. Daily Stats 전체 로직 설계</span>
+## 2. Daily Stats 전체 로직 설계
 
 ---
 

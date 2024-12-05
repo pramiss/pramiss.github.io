@@ -1,7 +1,6 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center">
 
-  <!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable-next-line -->
 
 # [pramiss.github.io](https://pramiss.github.io/)
 
