@@ -2,12 +2,10 @@
 
 <!-- markdownlint-disable-next-line -->
 
-# [pramiss.github.io](https://pramiss.github.io/)
+## [pramiss.github.io](https://pramiss.github.io/)
 
-
-
-- Github Blog powered by Jekyll & Chirpy
-- Nov. 12, 2024 ~ Present
+* Github Blog powered by Jekyll & Chirpy
+* Nov. 12, 2024 ~ Present
 
 ## Setup
 
@@ -16,9 +14,7 @@
 * Bundler Version: `2.5.23`
 * Image Storage: `One Drive` - `prampic@outlook.com`
 
-
-
-## Blog Update Log
+## Update Log
 
 | Date | Title | Description |
 |:-----|:------------|------|
