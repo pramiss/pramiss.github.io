@@ -33,11 +33,11 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
+  --site-title-color: rgb(60, 60, 60);
+  --site-subtitle-color: #252525;
+  --sidebar-bg: url('/assets/img/profiles/bg-white-3.jpg'); // #f6f8fa;
   --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
+  --sidebar-muted-color: #1d1d1d; // #545454;
   --sidebar-active-color: #1d1d1d;
   --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
   --sidebar-btn-bg: white;
