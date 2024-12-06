@@ -35,14 +35,14 @@
   /* Sidebar */
   --site-title-color: rgb(60, 60, 60);
   --site-subtitle-color: #252525;
-  --sidebar-bg: url('/assets/img/profiles/bg-white-3.jpg'); // #f6f8fa;
+  --sidebar-bg: url('/assets/img/profiles/bg-sunset.jpg'); // #f6f8fa;
   --sidebar-border-color: #efefef;
   --sidebar-muted-color: #1d1d1d; // #545454;
   --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
-  --avatar-border-color: white;
+  --sidebar-hover-bg: rgba(103, 33, 35, 0.2); // rgba(158, 50, 39, 0.4); // rgb(223, 233, 241, 0.64);
+  --sidebar-btn-bg: rgb(226, 226, 226); // white;
+  --sidebar-btn-color: #5c5c5c; // #8e8e8e;
+  --avatar-border-color: rgba(93, 93, 93, 0.9); // white;
 
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
