@@ -2,7 +2,7 @@
 title: Daily Stats API Logic 설계
 description: 날짜별 개별 운동에 대한 tempo를 기록하고 뿌려주는 API입니다.
 date: 2024-11-26 13:18:00 +0900
-categories: [Project, PhysicalTrack]
+categories: [Project, Physical Track]
 tags: [physical_track_api] # TAG names should always be lowercased
 ---
 
